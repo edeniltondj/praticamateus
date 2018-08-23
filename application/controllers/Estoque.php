@@ -36,7 +36,7 @@ class Estoque extends CI_Controller {
         
         $this->data['filiais'] = $this->filiais->getall();
          
-        $this->data['pedidos'] = $this->estoque->get_por_filial($filial);
+        $this->data['estoques'] = $this->estoque->get_por_filial($filial);
        
         $this->view->show('lista', $this->data);
     }

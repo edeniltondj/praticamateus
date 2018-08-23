@@ -59,12 +59,14 @@ switch (ENVIRONMENT)
 		//ini_set('display_errors', 1);
 
 		 // Report all errors
-            error_reporting(0);
+            //error_reporting(0);
 
             // Display errors in output
-            ini_set('display_errors', 0);
-
-	break;
+          //  ini_set('display_errors', 0);
+          ini_set('display_errors', 1);
+        ini_set('display_startup_erros', 1);
+        error_reporting(E_ALL);
+        break;
 
 	case 'testing':
 	case 'production':
