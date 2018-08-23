@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-Page%201" viewBox="0 0 23 16" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="23px" height="16px"
+>
+	<defs>
+		<!-- Library -->
+		<symbol id="ICON_VIEW" overflow="visible">
+			<g id="Layer%2012">
+				<path id="1407007313_eye-24" d="M -0.4823 -3 C -2.0698 -2.997 -3.3545 -1.607 -3.3545 0 C -3.3545 1.606 -2.0698 3 -0.4823 3 C 1.1052 3 2.3901 1.605 2.3901 0 C 2.3901 -1.608 1.1052 -3.003 -0.4823 -3 L -0.4823 -3 ZM -0.4823 5 C -3.2606 5 -5.2694 2.812 -5.2694 0 C -5.2694 -2.813 -3.2606 -5 -0.4823 -5 C 2.296 -5 4.3049 -2.813 4.3049 0 C 4.3049 2.812 2.296 5 -0.4823 5 L -0.4823 5 ZM -0.4995 -8 C -8.0985 -8 -12 0 -12 0 C -12 0 -9.0559 8 -0.4995 8 C 7.2489 8 11 0.031 11 0.031 C 11 0.031 7.2192 -8 -0.4995 -8 L -0.4995 -8 Z" fill="#333333"/>
+			</g>
+
+		</symbol>
+		<!-- End Library -->
+
+	</defs>
+	<g id="Layer%201">
+		<use id="ICON_VIEW2" xlink:href="#ICON_VIEW" transform="matrix(1, 0, 0, 1, 12, 8)"/>
+	</g>
+</svg>

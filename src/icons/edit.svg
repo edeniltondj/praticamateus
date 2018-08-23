@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-Page%201" viewBox="0 0 23 16" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="23px" height="16px"
+>
+	<defs>
+		<!-- Library -->
+		<symbol id="ICON_EDIT" overflow="visible">
+			<g id="Layer%2012">
+				<g>
+					<path id="1407005357_write" d="M 4.5714 -8 C 3.8834 -8 2.9155 -7.7726 2.1246 -6.9817 L 1.8 -6.6572 L 6.6572 -1.8 L 6.9818 -2.1246 C 7.7097 -2.8526 8 -3.7771 8 -4.5714 C 8 -6.4651 6.464 -8 4.5714 -8 L 4.5714 -8 ZM -6.3394 1.4823 C -7.1382 2.2812 -8 6.5177 -8 6.8571 C -8 7.4526 -7.536 8 -6.8571 8 C -6.5177 8 -2.2811 7.1383 -1.4823 6.3394 L 5.0571 -0.2 L 0.2 -5.0571 L -6.3394 1.4823 L -6.3394 1.4823 Z" fill="#333333"/>
+				</g>
+			</g>
+
+		</symbol>
+		<!-- End Library -->
+
+	</defs>
+	<g id="Layer%201">
+		<use id="ICON_EDIT2" xlink:href="#ICON_EDIT" transform="matrix(1, 0, 0, 1, 11, 8)"/>
+	</g>
+</svg>

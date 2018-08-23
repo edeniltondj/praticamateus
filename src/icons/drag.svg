@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-Page%201" viewBox="0 0 30 30" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="30px" height="30px"
+>
+	<defs>
+		<filter id="filter1" x="-100%" y="-100%" width="300%" height="300%">
+			<!-- Drop Shadow -->
+			<feOffset result="out" in="SourceGraphic" dx="0" dy="2"/>
+			<feColorMatrix result="out" in="out" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.302 0"/>
+			<feGaussianBlur result="out" in="out" stdDeviation="1"/>
+			<feBlend in="SourceGraphic" in2="out" mode="normal" result="Drop_Shadow1"/>
+		</filter>
+		<filter id="filter2" x="-100%" y="-100%" width="300%" height="300%">
+			<!-- Drop Shadow -->
+			<feOffset result="out" in="SourceGraphic" dx="0" dy="2"/>
+			<feColorMatrix result="out" in="out" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.302 0"/>
+			<feGaussianBlur result="out" in="out" stdDeviation="1"/>
+			<feBlend in="SourceGraphic" in2="out" mode="normal" result="Drop_Shadow2"/>
+		</filter>
+		<filter id="filter3" x="-100%" y="-100%" width="300%" height="300%">
+			<!-- Drop Shadow -->
+			<feOffset result="out" in="SourceGraphic" dx="0" dy="2"/>
+			<feColorMatrix result="out" in="out" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.302 0"/>
+			<feGaussianBlur result="out" in="out" stdDeviation="1"/>
+			<feBlend in="SourceGraphic" in2="out" mode="normal" result="Drop_Shadow3"/>
+		</filter>
+	</defs>
+	<g id="Layer%201">
+		<rect filter="url(#filter1)" x="7" y="13" width="16" height="4" fill="#555555"/>
+		<rect filter="url(#filter2)" x="7" y="22" width="16" height="4" fill="#555555"/>
+		<rect filter="url(#filter3)" x="7" y="4" width="16" height="4" fill="#555555"/>
+	</g>
+</svg>

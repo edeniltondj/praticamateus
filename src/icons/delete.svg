@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-Page%201" viewBox="0 0 23 16" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="23px" height="16px"
+>
+	<defs>
+		<!-- Library -->
+		<symbol id="ICON_DELETE" overflow="visible">
+			<g id="Layer%2012">
+				<path id="1407007156_cross-24" d="M 7.8213 -6.0793 C 8.0596 -5.8408 8.0596 -5.4498 7.8213 -5.2112 L 3.042 -0.4322 C 2.8036 -0.1944 2.8036 0.1974 3.042 0.4367 L 7.819 5.2172 C 8.0573 5.4558 8.0573 5.8468 7.819 6.0861 L 6.0789 7.8216 C 5.8398 8.0594 5.4484 8.0594 5.2092 7.8216 L 0.4336 3.0419 C 0.1953 2.8033 -0.1968 2.8033 -0.4351 3.0419 L -5.2146 7.8186 C -5.4529 8.0572 -5.845 8.0572 -6.0835 7.8186 L -7.8213 6.0808 C -8.0596 5.8422 -8.0596 5.4512 -7.8213 5.2119 L -3.0404 0.4337 C -2.802 0.1958 -2.802 -0.1959 -3.0404 -0.4352 L -7.8174 -5.2165 C -8.0565 -5.4551 -8.0565 -5.8469 -7.8174 -6.0854 L -6.0781 -7.8217 C -5.8383 -8.0595 -5.4475 -8.0595 -5.2085 -7.821 L -0.4336 -3.042 C -0.1946 -2.8026 0.1968 -2.8026 0.4353 -3.0412 L 5.2146 -7.8179 C 5.4521 -8.0557 5.8435 -8.0557 6.0835 -7.8179 L 7.8213 -6.0793 L 7.8213 -6.0793 Z" fill="#333333"/>
+			</g>
+
+		</symbol>
+		<!-- End Library -->
+
+	</defs>
+	<g id="Layer%201">
+		<use id="ICON_DELETE2" xlink:href="#ICON_DELETE" transform="matrix(1, 0, 0, 1, 11, 8)"/>
+	</g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-Page%201" viewBox="0 0 32 32" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="32px" height="32px"
+>
+	<defs>
+		<filter id="filter1" x="-100%" y="-100%" width="300%" height="300%">
+			<!-- Drop Shadow -->
+			<feOffset result="out" in="SourceGraphic" dx="-1.2856" dy="1.5321"/>
+			<feColorMatrix result="out" in="out" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.4 0"/>
+			<feGaussianBlur result="out" in="out" stdDeviation="1"/>
+			<feBlend in="SourceGraphic" in2="out" mode="normal" result="Drop_Shadow1"/>
+		</filter>
+	</defs>
+	<g id="Layer%201">
+		<g>
+			<path d="M 2 0 L 2 32 L 29 32 L 29 7.1111 L 21.9565 0 L 2 0 Z" stroke="#d0d0d0" stroke-width="1" fill="#f8f8f8"/>
+			<rect x="6.6957" y="4.7408" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="7.1111" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="9.4815" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="11.8518" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="14.2222" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="16.5926" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="18.963" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="21.3333" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6957" y="23.7037" width="17.6087" height="1.1852" fill="#d0d0d0"/>
+			<rect x="6.6956" y="26.0741" width="9.3913" height="1.1852" fill="#d0d0d0"/>
+			<path filter="url(#filter1)" d="M 21.9565 0 L 29 7.1111 L 21.9565 7.1111 L 21.9565 0 Z" fill="#bfbfbf"/>
+		</g>
+	</g>
+</svg>
