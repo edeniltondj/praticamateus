@@ -43,8 +43,8 @@
     <body class="login-page" >
         <div class="login-box">
             <div class="logo">
-                <a class="col-indigo" href="javascript:void(0);">Terra Viva</b></a>
-                <small class="col-indigo">Gerenciamento de Relatórios</small>
+                <a class="col-indigo" href="javascript:void(0);">Estoque</b></a>
+                <small class="col-indigo">Gerenciamento de cadastros</small>
             </div>
             <div class="card">
 
@@ -56,7 +56,7 @@
                    <div  id="message-alert-lg" class="alert alert-info alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <p id="message-content-lg">
-                     <center>Digite seu nome de usuário já registrado para que você habilite e registre uma nova senha e email para acessar o sistema web</center>
+                     <center>Digite seu nome de usuário para que você habilite e registre uma nova senha e email para acessar o sistema web</center>
 
                  </p>
              </div>

@@ -25,7 +25,7 @@
 
         ?>
 
-        <title><?php echo $page_title; ?> :: Terra Viva</title>
+        <title><?php echo $page_title; ?> :: Estoque</title>
     </head>
 <?php endif; ?>
 
@@ -59,7 +59,7 @@
 
 		?>
 
-		<title><?php echo empty($page_title) ? "": $page_title; ?> :: Terra Viva</title>
+		<title><?php echo empty($page_title) ? "": $page_title; ?> :: Estoque</title>
 
 
 	</head>
@@ -136,22 +136,62 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">trending_down</i>
-                            <span>Produção</span>
+                            <span>Produtos</span>
+                        </a>
+                        <ul class="ml-menu">
+                    
+                            <li>
+                                    <a href="<?php echo site_url('produto/novo') ?>">
+                                        <span>novo</span>
+                                 </a>
+                                </li>
+                                <li>
+                                <a href="<?php echo site_url('produto/listar') ?>">
+                                        <span>Listar</span>
+                                 </a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                     <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">trending_down</i>
+                            <span>Pedidos</span>
                         </a>
                         <ul class="ml-menu">
                     
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Plano de saúde - Empresarial</span>
+                                    <span>Pedidos</span>
                                 </a>
-                                <ul class="ml-menu">
-                                    <li>
-                                        <a href="<?php echo site_url('producao/psempresarial/pme/t') ?>">
-                                            <span>Relatório - PME</span>
-                                        </a>
-                                    </li>
-                                     
-                                </ul>
+                                <a href="<?php echo site_url('pedido/novo') ?>">
+                                        <span>novo</span>
+                                 </a>
+                                <a href="<?php echo site_url('pedido/listar') ?>">
+                                        <span>Listar</span>
+                                 </a>
+                            </li>
+
+
+
+                        </ul>
+                    </li>
+                    
+                     <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">trending_down</i>
+                            <span>Estoque</span>
+                        </a>
+                        <ul class="ml-menu">
+                    
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Estoque</span>
+                                </a>
+                                <a href="<?php echo site_url('estoque/ver') ?>">
+                                        <span>Ver</span>
+                                 </a>
+                          
                             </li>
 
 

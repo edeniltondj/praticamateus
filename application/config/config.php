@@ -225,7 +225,7 @@ $config['log_threshold'] = 0;
 | application/logs/ folder. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = '';
+$config['log_path'] = 'D:\logs';
 
 /*
 |--------------------------------------------------------------------------
@@ -456,3 +456,16 @@ $config['proxy_ips'] = '';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
+
+
+$config['empresa'] = array(
+    'id' => 1,
+    'nome' => 'Edenilton Empresa',
+    'cnpj' =>'95006771000100',
+    'telefone' =>'98987056065',
+    'endereco' =>'Rua do Edenilton',
+    'login' =>'edenilton',
+    'senha' =>'123456',
+    
+    
+);

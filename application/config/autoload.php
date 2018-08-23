@@ -164,7 +164,7 @@ $autoload['language'] = array();
 $autoload['model'] = array(array(
 						'usuario_model' => 	'usuarios',
 						'extended_model' => 'extended',
-						'terraviva_model' => 'terraviva',
+						
 					));
 
 

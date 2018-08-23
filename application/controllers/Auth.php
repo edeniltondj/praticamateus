@@ -10,7 +10,9 @@ class Auth extends CI_Controller
 	{
 		parent::__construct();
 		
-		if($this->usuarios->validate_session(1) === true)
+//		if($this->usuarios->validate_session(1) === true)
+		//por enquanto nao autenticar
+                if(1==1)
 		{
 			redirect(ADMIN_HOME);
 			die();
@@ -24,7 +26,7 @@ class Auth extends CI_Controller
 	{
 	
 	
-		$this->view->setPageTitle('Relatórios Terra Viva - Login');
+		$this->view->setPageTitle('IT Happens - Login');
 		//$this->view->showHeader(false);
 		//$this->view->showFooter(false);
 
@@ -56,7 +58,7 @@ class Auth extends CI_Controller
 
 
 	public function cadastro(){
-		$this->view->setPageTitle('Relatórios Terra Viva - Login');
+		$this->view->setPageTitle('IT Happens - Login');
 		//$this->view->showHeader(false);
 		//$this->view->showFooter(false);
 

@@ -12,13 +12,13 @@ class Inicio extends CI_Controller
 		parent::__construct();
 
 		//Checa as permissões do usuário
-		$has_permission = $this->usuarios->validate_session($this->needed_permissions);
+		/*$has_permission = $this->usuarios->validate_session($this->needed_permissions);
 		if($has_permission !== true)
 		{
 
 			redirect('auth');
 			die();
-		}
+		}*/
 
 		$this->controller = 'inicio';
 

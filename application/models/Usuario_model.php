@@ -5,7 +5,7 @@
 class usuario_model extends CI_Model
 {
 
-    private $table  = "usuarios";
+    private $table  = "filial";
     private $prefix = "";
 
     private $tipos_usuarios = array(
@@ -149,7 +149,7 @@ class usuario_model extends CI_Model
         $this->db->where('nome', $name);
         $user = $this->get(null, null, false)->row_array();
 
-        return (is_null($user)) ? 'false' : ($user['alterou_senha'] == 1 ? 'registered' : 'true');
+        return (is_null($user) ? 'false' : 'true');
     }
 
     /**
@@ -161,7 +161,7 @@ class usuario_model extends CI_Model
     {
 
         //if( $this->validate_forms('first-login') ) {
-        if (1 == 1) {
+        
             //Procura pelos usuarios no banco
             $this->db->where(array(
                 'nome' => $this->input->post('username-cad'),
@@ -170,7 +170,7 @@ class usuario_model extends CI_Model
 
             $user = $this->get(null, null, true)->row_array();
 
-            if (!empty($user) && ($user['alterou_senha'] == 0)) {
+            
                 //rotina de redefinição de senha
 
                 $data = array(
@@ -190,11 +190,7 @@ class usuario_model extends CI_Model
                     $this->resultados['mensagem'] = 'Erro ao registrar os dados, tente novamente mais tarde';
                     $this->resultados['erro']     = 'ERROR_STORE_DATA';
                 }
-            } else {
-                $this->resultados['mensagem'] = 'Usuário ou senha incorreto(s)!';
-                $this->resultados['erro']     = 'WRONG_USER_INFO';
-            }
-        }
+                   
 
         return $this->resposta();
     }
@@ -222,7 +218,7 @@ class usuario_model extends CI_Model
             $user = $this->get(null, null, true)->row_array();
 
             //Existe um usuário com esse login e a senha esta correta
-            if (!empty($user) && (sha1($this->input->post('password')) == $user['senha_net']) && $user['alterou_senha'] == 1) //$this->bcrypt->validate($this->input->post('senha'), $user['senha']) )
+            if (!empty($user) && (sha1($this->input->post('password')) == $user['senha'])) //$this->bcrypt->validate($this->input->post('senha'), $user['senha']) )
             //if( !empty($user) && ($this->input->post('password') == $user['senha']))//$this->bcrypt->validate($this->input->post('senha'), $user['senha']) )
             {
                 //Define os dados de sessão do usuário
@@ -234,16 +230,10 @@ class usuario_model extends CI_Model
             }
             //Usuario não encontrado ou ainda não alterou a senha
             else {
-                if (!empty($user) && ($user['alterou_senha'] == 0)) {
-                    //rotina de redefinição de senha
-
-                    $this->resultados['mensagem'] = 'Você ainda não registrou seus dados! Clique abaixo em "Validar Usuário" e cadastre sua senha e email para acessar o sistema web!';
-
-                    $this->resultados['erro'] = 'FIRST_LOGIN';
-                } else {
+               
                     $this->resultados['mensagem'] = 'Usuário ou senha incorreto(s)!';
                     $this->resultados['erro']     = 'WRONG_USER_INFO';
-                }
+                
             }
 
         }
@@ -280,7 +270,7 @@ class usuario_model extends CI_Model
             $user = $this->get(null, null, false)->row_array();
 
             //Existe um usuário com esse login e a senha esta correta
-            if (!empty($user) && $this->session->userdata('user_password') == $user['senha_net']) {
+            if (!empty($user) && $this->session->userdata('user_password') == $user['senha']) {
 
                 //Atualiza dados básicos da sessão
                 /*echo '<pre>';
@@ -335,7 +325,7 @@ class usuario_model extends CI_Model
         if ($type == 'short' || $type == 'all') {
             $this->session->set_userdata(array(
                 //'user_password' => $data['senha'],
-                'user_password'    => $data['senha_net'],
+                'user_password'    => $data['senha'],
                 //'user_permissions' => $data['tipo'],
                 'user_permissions' => 1,
                 'user_name'        => $data['nome'],
