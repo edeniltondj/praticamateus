@@ -15,10 +15,6 @@ class Mailer {
 		$this->pm->CharSet    = 'utf-8';
 		$this->pm->SMTPSecure = 'tls';
 
-		/*$this->pm->Host       = 'mail.phpflex.com.br';
-		$this->pm->Port       = '587';                   
-		$this->pm->SMTPAuth   = true;*/
-
 		$this->pm->Host       = 'mail.provedor.com';
 		$this->pm->Port       = '587';                   
 		$this->pm->SMTPAuth   = true;
@@ -26,10 +22,8 @@ class Mailer {
 		$this->pm->Username   = 'servidor@provedor.com.br';
 		$this->pm->Password   = 'senhadele';
 
-		/*$this->pm->Username   = 'preserv@preserv.phpflex.com.br';
-		$this->pm->Password   = 'phpflexpreserv';*/
 
-		$this->pm->From       = 'email@terraviva.com.br';
+		$this->pm->From       = 'email@emaildele.com.br';
 		$this->pm->FromName   = 'Sistema de relatórios terra viva';
 	}
 
